@@ -1,0 +1,282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"res",
+				"responseJson"
+			],
+			[
+				"D",
+				"Done"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 74.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Azioth/Desktop/loadtestcartp07 at indemandtest005 log.txt",
+		"/C/Users/Azioth/Desktop/loadtestterp04 at indemandtest011.txt",
+		"/C/Users/Azioth/Desktop/loadtestcart04 at indemandtest12.txt",
+		"/D/Programas/SublimeText/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Azioth/Desktop/Crush.bat",
+		"/D/dev/projects/AutomationReportingTool/.git/config",
+		"/D/dev/projects/learning-nodejs/bookApi/gulpfile.js",
+		"/D/dev/projects/learning-nodejs/bookApi/models/bookModel.js",
+		"/D/dev/projects/learning-nodejs/.gitignore",
+		"/D/dev/projects/learning-nodejs/bookApi/app.js",
+		"/D/dev/projects/learning-nodejs/bookApi/package.json",
+		"/D/Games/Steam/SteamApps/common/swkotor/swkotor.ini",
+		"/D/dev/projects/Automation/.git/config",
+		"/D/Programas/SublimeText/Data/Packages/User/JavaScript.sublime-settings",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.311/6-mongoose-for-nodejs-mongodb-m6-exercise-files/routes/index.js",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.026/6-mongoose-for-nodejs-mongodb-m6-exercise-files/controllers/standup.server.controller.js",
+		"/D/dev/projects/.bashrc",
+		"/D/Games/Steam/SteamApps/common/Counter-Strike Global Offensive/csgo/cfg/config.cfg",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.352/5-mongoose-for-nodejs-mongodb-m5-exercise-files/views/newnote.html",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.071/6-mongoose-for-nodejs-mongodb-m6-exercise-files/views/index.html",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.258/5-mongoose-for-nodejs-mongodb-m5-exercise-files/views/index.html",
+		"/C/Users/Azioth/Desktop/Ping.bat",
+		"/D/Games/Steam/SteamApps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg",
+		"/D/Games/Steam/SteamApps/common/Counter-Strike Global Offensive/csgo/cfg/BotDM.cfg",
+		"/D/Games/Steam/SteamApps/common/Counter-Strike Global Offensive/csgo/cfg/config.360.cfg",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DIa0.400/config.cfg",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DIa0.442/autoexec.cfg",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DIa0.008/config.cfg",
+		"/D/Games/Steam/SteamApps/common/Counter-Strike Global Offensive/csgo/cfg/prac.cfg",
+		"/C/Users/Azioth/Downloads/Sample.csv",
+		"/D/Games/Steam/SteamApps/common/Counter-Strike Global Offensive/csgo/cfg/config.bkp.cfg",
+		"/D/Games/Steam/SteamApps/common/Counter-Strike Global Offensive/csgo/cfg/config_default.cfg",
+		"/D/dev/projects/learning-java/.git/config",
+		"/D/dev/projects/.ssh/id_rsa.pub",
+		"/D/dev/projects/.ssh/id_rsa",
+		"/D/Games/World_of_Tanks_NA/res_mods/xvm/configs/default/@xvm.xc",
+		"/D/Games/Steam/SteamApps/common/the witcher 2/CookedPC/abilities/geralt_basic.xml",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.245/abilities/geralt_basic.xml",
+		"/D/Games/World_of_Tanks_NA/res_mods/xvm/configs/xvm.xc",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.595/xvm/configs/default/@xvm.xc",
+		"/D/Games/World_of_Tanks_NA/res_mods/xvm/configs/xvm.xc.sample",
+		"/D/Games/World_of_Tanks_NA/res_mods/xvm/xvm.xc",
+		"/D/Games/World_of_Tanks_NA/res_mods/xvm/configs/default/alpha.xc",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.637/xvm/configs/default/hitLog.xc",
+		"/D/Games/World_of_Tanks_NA/res_mods/xvm/configs/default/hitLog.xc",
+		"/D/Games/World of Warcraft/Interface/AddOns/MasterPlan/GarrisonMissions.lua",
+		"/D/Games/Steam/resource/styles/steam.styles",
+		"/D/Games/Steam/SteamApps/common/dota 2 beta/dota/cfg/autoexec.cfg",
+		"/D/Games/Steam/resource/styles/gameoverlay.styles",
+		"/D/Games/Steam/SteamApps/common/dota 2 beta/dota/pak01_dir.vpk",
+		"/D/Games/Steam/SteamApps/common/dota 2 beta/dota/cfg/config.cfg",
+		"/C/Users/Azioth/Documents/my games/Far Cry 3/GamerProfile.xml",
+		"/C/Users/Azioth/Downloads/packDetail.ftl",
+		"/C/Users/Azioth/AppData/Roaming/livestreamer/livestreamerrc",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.267/config.cfg",
+		"/C/Users/Azioth/AppData/Local/Temp/Rar$DRa0.997/autoexec.cfg",
+		"/D/Programas/SublimeText/Data/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"•	",
+			"21",
+			"@Thread 45",
+			"@Thread 33",
+			"@Thread 46",
+			"terp",
+			"PAUSE",
+			"Height=",
+			"heig",
+			"sensitivity ",
+			"fps_max",
+			"cl_interp",
+			"cl_interp_ratio",
+			"cl_interp_ratio ",
+			"cl_updaterate",
+			"cl_cmdrate",
+			"rate ",
+			"rate",
+			"sens",
+			"+ng",
+			"sensi",
+			"sens",
+			"voice",
+			"voice_enable",
+			"voice",
+			"	",
+			"x ",
+			"story_s8_1",
+			"weight",
+			"console",
+			"steam",
+			"ConsoleText",
+			"minutos",
+			"85",
+			"84"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"cart",
+			",,",
+			",",
+			"	",
+			"megabytes"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "GemFile.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
