@@ -2,9 +2,13 @@
 	<body>
 		<h1>Tennis Scoreboard</h1>
 		<br>
-		<form id=score-point-container action=/scoreboard method=post>
-			<input type=hidden name=player value=player_one>
-			<input type=submit id=p1-point-btn value='Point: Player One!' >
+		<form id="score-point-container1" action="/scoreboard" method="post">
+			<input type="hidden" name="player" value="player_one">
+			<input type="submit" id="p1-point-btn" value="Point: Player One!">
+		</form>
+		<form id="score-point-container2" action="/scoreboard" method="post">
+			<input type="hidden" name="player" value="player_two">
+			<input type="submit" id="p2-point-btn" value="Point: Player Two!">
 		</form>
 		<p>Game: <%= @game_score %></p>
 		<p>Set: <%= @set_score %></p>

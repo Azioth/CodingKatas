@@ -23,10 +23,10 @@ class Score
 	def self.score_player_one()
 		@@scoreboard.score_player_one
 	end
-end
 
-configure do
-  Score::init()
+	def self.score_player_two()
+		@@scoreboard.score_player_two
+	end
 end
 
 get '/' do
@@ -34,6 +34,7 @@ get '/' do
 end
 
 get '/scoreboard' do
+	Score::init()
 	@game_score = Score::game_score()
 	@set_score = Score::set_score()
 	@match_score = Score::match_score()
@@ -43,8 +44,8 @@ end
 post '/scoreboard' do
 	if params['player'] == 'player_one'
 		Score::score_player_one()
-	#elsif params['value'] == 'player_two'
-	#	Score::score_player_two
+	elsif params['player'] == 'player_two'
+		Score::score_player_two()
 	end
 	@game_score = Score::game_score()
 	@set_score = Score::set_score()
