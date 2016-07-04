@@ -1,0 +1,13 @@
+<html>
+	<body>
+		<h1>Tennis Scoreboard</h1>
+		<br>
+		<form id=score-point-container action=/scoreboard method=post>
+			<input type=hidden name=player value=player_one>
+			<input type=submit id=p1-point-btn value='Point: Player One!' >
+		</form>
+		<p>Game: <%= @game_score %></p>
+		<p>Set: <%= @set_score %></p>
+		<p>Match: <%= @match_score %></p>
+	</body>
+</html>
