@@ -52,6 +52,30 @@ describe Scoreboard do
 		expect(sb.get_game_score).to eq "0 - 0"
 	end
 
+	it 'Player one get advantage if both player are tied in 40' do
+		sb = Scoreboard.new
+		3.times do
+			sb.score_player_one
+		end
+		3.times do
+			sb.score_player_two
+		end
+		sb.score_player_one
+		expect(sb.get_game_score).to eq "adv - 40"
+	end
+
+	it 'Player two get advantage if both player are tied in 40' do
+		sb = Scoreboard.new
+		3.times do
+			sb.score_player_one
+		end
+		3.times do
+			sb.score_player_two
+		end
+		sb.score_player_two
+		expect(sb.get_game_score).to eq "40 - adv"
+	end
+
 	it 'Player one dont win a set when score 4 points but does not leads by two points' do
 		sb = Scoreboard.new
 		3.times do
@@ -61,6 +85,18 @@ describe Scoreboard do
 			sb.score_player_two
 		end
 		sb.score_player_one
+		expect(sb.get_set_score).to eq "0 - 0"
+	end
+
+	it 'Player two dont win a set when score 4 points but does not leads by two points' do
+		sb = Scoreboard.new
+		3.times do
+			sb.score_player_one
+		end
+		3.times do
+			sb.score_player_two
+		end
+		sb.score_player_two
 		expect(sb.get_set_score).to eq "0 - 0"
 	end
 end
