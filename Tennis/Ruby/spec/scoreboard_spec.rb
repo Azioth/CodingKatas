@@ -99,4 +99,32 @@ describe Scoreboard do
 		sb.score_player_two
 		expect(sb.get_set_score).to eq "0 - 0"
 	end
+
+	it 'Player one wins its six game while leading the set by two points and wins a game point' do
+		sb = Scoreboard.new
+		5.times do
+			sb.score_set_player_one
+		end
+		4.times do
+			sb.score_set_player_two
+		end
+		4.times do
+			sb.score_player_one
+		end
+		expect(sb.get_match_score).to eq "1 - 0"
+	end
+
+	it 'Player two wins its six game while leading the set by two points and wins a game point' do
+		sb = Scoreboard.new
+		5.times do
+			sb.score_set_player_two
+		end
+		4.times do
+			sb.score_set_player_one
+		end
+		4.times do
+			sb.score_player_two
+		end
+		expect(sb.get_match_score).to eq "0 - 1"
+	end
 end

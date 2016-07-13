@@ -27,6 +27,14 @@ class Score
 	def self.score_player_two()
 		@@scoreboard.score_player_two
 	end
+
+	def self.is_game_over()
+		@@scoreboard.is_game_over
+	end
+
+	def self.get_winner()
+		@@scoreboard.get_winner		
+	end
 end
 
 get '/' do
@@ -47,8 +55,14 @@ post '/scoreboard' do
 	elsif params['player'] == 'player_two'
 		Score::score_player_two()
 	end
-	@game_score = Score::game_score()
-	@set_score = Score::set_score()
-	@match_score =Score::match_score()
-	erb :scoreboard
+	if Score::is_game_over() == true
+		@winner =Score::get_winner()
+		@match_score =Score::match_score()
+		erb :gameover
+	else
+		@game_score = Score::game_score()
+		@set_score = Score::set_score()
+		@match_score =Score::match_score()
+		erb :scoreboard
+	end
 end

@@ -132,3 +132,67 @@ Scenario: Player two scores a point having the advantage, wins a game
 	When the user gives the point to the player two
 	Then the user should see the set score "Set: 0 - 1"
 	And the user should see the game score "Game: 0 - 0"
+
+Scenario: Player one wins its six game having a lead of two games, wins the set
+	Given the user opens the tennis scoreboard home page
+	And the user starts the scoreboard
+	And the player one has already won 5 games
+	And the player two has already won 4 games
+	And the player one has already scored 3 point
+	When the user gives the point to the player one
+	Then the user should see the match score "Match: 1 - 0"
+	And the user should see the set score "Set: 0 - 0"
+	And the user should see the game score "Game: 0 - 0"
+
+Scenario: Player two wins its six game having a lead of two games, wins the set
+	Given the user opens the tennis scoreboard home page
+	And the user starts the scoreboard
+	And the player two has already won 5 games
+	And the player one has already won 4 games
+	And the player two has already scored 3 point
+	When the user gives the point to the player two
+	Then the user should see the match score "Match: 0 - 1"
+	And the user should see the set score "Set: 0 - 0"
+	And the user should see the game score "Game: 0 - 0"
+
+Scenario: Player one wins its six game having a lead of one game, do not win the set
+	Given the user opens the tennis scoreboard home page
+	And the user starts the scoreboard
+	And the player one has already won 5 games
+	And the player two has already won 5 games
+	And the player one has already scored 3 point
+	When the user gives the point to the player one
+	Then the user should see the match score "Match: 0 - 0"
+	And the user should see the set score "Set: 6 - 5"
+	And the user should see the game score "Game: 0 - 0"
+
+Scenario: Player two wins its six game having a lead of one game, do not win the set
+	Given the user opens the tennis scoreboard home page
+	And the user starts the scoreboard
+	And the player two has already won 5 games
+	And the player one has already won 5 games
+	And the player two has already scored 3 point
+	When the user gives the point to the player two
+	Then the user should see the match score "Match: 0 - 0"
+	And the user should see the set score "Set: 5 - 6"
+	And the user should see the game score "Game: 0 - 0"
+
+Scenario: Player one wins its third set and wins the match
+	Given the user opens the tennis scoreboard home page
+	And the user starts the scoreboard
+	And the player one has already won 2 sets
+	And the player one has already won 5 games
+	And the player one has already scored 3 point
+	When the user gives the point to the player one
+	Then the user should see the message "Player One won the match!"
+	And the user should see the final score message "Final Score: Player One ( 3 - 0 ) Player Two"
+
+Scenario: Player one wins its third set and wins the match
+	Given the user opens the tennis scoreboard home page
+	And the user starts the scoreboard
+	And the player one has already won 2 sets
+	And the player one has already won 5 games
+	And the player one has already scored 3 point
+	When the user gives the point to the player one
+	Then the user should see the message "Player Two won the match!"
+	And the user should see the final score message "Final Score: Player One ( 0 - 3 ) Player Two"
